@@ -309,8 +309,8 @@ This function takes in the Gaussian pyramid of the video and outputs a list cont
 We will perform temporal filtering on the Laplacian pyramid of the video. You will need to write the `butter_bandpass_filter` method which contructs the filter and filters the video. 
 
 **Tips for writing butter_bandpass_filter**
-  - Use `signal.butter` to create the bandpass filter (think about how to set the `axis` parameter).  
-  - Use`signal.lfilter` to filter the video frames. 
+  - Use `signal.butter` to create the bandpass filter.  
+  - Use`signal.lfilter` to filter the video frames (think about how to set the `axis` parameter). 
 **Note:** Please specify low and high frequencies in your filter as `0.4` and `3.0` repectively. 
 
 Next use the `butter_bandpass_filter` function in `filter_laplacian_pyramid`. Apply the filter from `butter_bandpass_filter` to each of the levels of the Laplacian pyramid and then amplify the signal by an amplification factor of 20. Return the filtered Laplacian pyramid as a list as done so in the previous parts. 

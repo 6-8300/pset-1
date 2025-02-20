@@ -3,7 +3,7 @@ from beartype.typing import List
 
 
 def create_gaussian_pyramid(video: np.ndarray, num_levels: int = 4) -> List[np.ndarray]:
-    """Return a list with Gaussian pyramid of the video. You may find cv2.pyrUp useful."""
+    """Return a list with Gaussian pyramid of the video. You may find cv2.pyrDown useful."""
 
     raise NotImplementedError("This is your homework.")
 
