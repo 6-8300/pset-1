@@ -1,5 +1,7 @@
 # 6.8300 Problem Set 1
 
+> Image Formation and Linear Image Processing
+
 ## Getting Started
 
 **Using Python 3.9 or newer,** create a virtual environment as follows:
